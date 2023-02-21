@@ -1,5 +1,5 @@
 <?php
-header("Access-Control-Allow-Origins:*");
+header("Access-Control-Allow-Origin:*");
 header('Content-Type: application/json');
 $data = array(
     array('firstname' => 'Samuli', 'lastname' => 'Pohjola', 'email' => 's.pohjola@oamk.fi'),
